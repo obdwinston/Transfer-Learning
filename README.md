@@ -2,7 +2,7 @@
 	<img src="https://github.com/obdwinston/Transfer-Learning/assets/104728656/f7cc324f-a3fe-4e1b-89bb-c45f718bcc88">
 </div>
 
-A simple PyTorch transfer learning tutorial with VGG-16 as feature extractor. The classifier predicts **first generation** Pokemon with about 95% test accuracy.
+A simple PyTorch transfer learning tutorial with VGG-16 as feature extractor. The classifier predicts **first generation** Pokemon with about 95% test accuracy.  
 
 1. Clone the repository:
 ```
@@ -20,4 +20,18 @@ Note:
 - After the first run, you can also choose to run only the predict script from the root folder (replace \<url\> with desired image URL):
 ```
 python3 src/predict.py "<url>"
+```
+- This script works with essentially any image dataset, so long as the `data` folder structure is as follows. Just remember to comment out `python3 src/utils.py` in `run.sh` if you intend to prepare your own `data` folder.
+```
+data/
+├── train/
+    ├── Label_1/image.png
+    ├── Label_2/image.jpg
+    ├── ...
+    ...
+├── test/
+    ├── Label_1/image.png
+    ├── Label_2/image.jpg
+    ├── ...
+    ...
 ```
