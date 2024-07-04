@@ -28,11 +28,11 @@ python3 src/predict.py "<url>"
 ```
 data/
 ├── train/
-    ├── Label_1/image.png
-    ├── Label_2/image.jpg
-    ├── ...
-    ...
-├── test/
+│   ├── Label_1/image.png
+│   ├── Label_2/image.jpg
+│   ├── ...
+│   ...
+└── test/
     ├── Label_1/image.png
     ├── Label_2/image.jpg
     ├── ...
