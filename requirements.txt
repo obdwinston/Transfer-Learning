@@ -1,7 +1,6 @@
 torch
-requests
-Pillow
-torch
 torchvision
 numpy
 matplotlib
+Pillow
+requests
