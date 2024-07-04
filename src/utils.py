@@ -3,7 +3,7 @@ import random
 import shutil
 from PIL import Image
 
-pokemon_folder = 'pokemon'
+pokemon_folder = 'PokemonData'
 train_folder = 'data/train'
 test_folder = 'data/test'
 
