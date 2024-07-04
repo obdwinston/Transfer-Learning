@@ -23,14 +23,10 @@ def is_image_file(filename):
     except:
         return False
 
-class_list = []
-
 for pokemon_name in sorted(os.listdir(pokemon_folder)):
     pokemon_path = os.path.join(pokemon_folder, pokemon_name)
     
     if os.path.isdir(pokemon_path):
-        class_list.append(pokemon_name.capitalize())
-        
         train_pokemon_path = os.path.join(train_folder, pokemon_name)
         test_pokemon_path = os.path.join(test_folder, pokemon_name)
         os.makedirs(train_pokemon_path, exist_ok=True)
@@ -53,5 +49,4 @@ for pokemon_name in sorted(os.listdir(pokemon_folder)):
         for filename in train_files:
             shutil.copy2(os.path.join(pokemon_path, filename), os.path.join(train_pokemon_path, filename))
 
-print("Class list:", class_list)
 print("Dataset processing complete.")
