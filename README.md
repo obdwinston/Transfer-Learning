@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="https://github.com/obdwinston/Transfer-Learning/assets/104728656/f7cc324f-a3fe-4e1b-89bb-c45f718bcc88">
+	<img src="https://github.com/obdwinston/Transfer-Learning/assets/104728656/1f4b4606-0621-470e-b4b5-33d524b2bda4">
 </div>
 
 A simple PyTorch transfer learning tutorial with VGG-16 as feature extractor. The classifier predicts **first generation** Pokemon with about 95% test accuracy.  
