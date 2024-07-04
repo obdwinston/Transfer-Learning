@@ -11,6 +11,7 @@ git clone https://github.com/obdwinston/Transfer-Learning.git
 2. Download and extract [Pokemon dataset from Kaggle](https://www.kaggle.com/datasets/lantian773030/pokemonclassification) to root folder.
 3. Run the shell script from the root folder:
 ```
+cd Transfer-Learning
 ./run.sh
 ```
 Note:
